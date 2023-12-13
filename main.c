@@ -2,6 +2,7 @@
 #include <qgraph.h>
 #include <psv.h>
 #include "bin/title.h"
+#include "bin/dibu01.h"
 
 
 // method declarations
@@ -12,6 +13,8 @@ void displayTitle(void);
 
 int main() {
     displayTitle();
+    
+    drawBackImg(dibu01);
     
     while(1) {
     }    
